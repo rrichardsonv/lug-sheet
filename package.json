@@ -1,0 +1,22 @@
+{
+  "name": "lug-sheet",
+  "version": "1.0.0",
+  "description": "Like excel but dragging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8",
+    "csv-parser": "^3.0.0",
+    "fastify": "^3.27.4",
+    "fastify-static": "^4.6.1",
+    "point-of-view": "^5.2.0",
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  }
+}
